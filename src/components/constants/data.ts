@@ -29,10 +29,10 @@ export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/ritesh-kumar-470307316/",
   twitter: "https://x.com/Code_By_Ritesh",
   leetcode: "https://leetcode.com/u/Ritesh_Kumar2414055/",
-  // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
+  peerlist: "", // remove or keep blank if you don't have a Peerlist profile
   instagram: "https://www.instagram.com/ritesh.build/",
   email: "riteshpeepal@gmail.com",
-  // blog: "https://yourblog.com", // remove if you don't have a blog
+  blog: "", // remove if you don't have a blog
   resume: "https://your-resume-drive-link.com",
 };
 
