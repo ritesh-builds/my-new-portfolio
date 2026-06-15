@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 export default function Experience() {
   return (
     <section className="py-5">
-      <h2 className="text-xl mb-4 font-semibold">work experience.</h2>
+      <h2 className="text-xl mb-4 font-semibold">technical experience.</h2>
 
       <div className="space-y-6 relative">
         {/* Single continuous vertical line */}

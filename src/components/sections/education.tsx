@@ -29,7 +29,7 @@ export default function Education() {
                 </Link>
               </p>
               <p className="text-sm text-muted-foreground">
-                Score: {edu.score}
+                Relevant Coursework: {edu.score}
               </p>
             </div>
           ))}

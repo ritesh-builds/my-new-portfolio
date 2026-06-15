@@ -2,34 +2,37 @@
 // Update the values to personalize your portfolio.
 
 export const ABOUT_ME = {
-  name: "Your Name",
+  name: "Ritesh Kumar",
   title: "Software Developer",
-  location: "Your Location",
-  email: "your.email@example.com",
+  location: "Karnal",
+  email: "riteshpeepal@gmail.com",
   description: [
-    "Write a short introduction about yourself!",
-    "Mention your interests, what you love to build, or your coding journey.",
-    "You can add more lines or remove these as you like.",
+    "Hey there 👋, I'm Ritesh.",
+    "I'm a B.Tech Computer Science student at UIET MDU Rohtak with a strong interest in Backend Development.",
+    "I build secure and scalable applications using Java, Spring Boot, MongoDB, Redis, and modern web technologies.",
+    "Currently, I'm improving my Data Structures & Algorithms skills while working on real-world projects.",
+    "",
+    ""
   ],
   profileImage: "/profile-image.webp", // Replace with your profile image
   profileGif: "/profile-gif.gif", // Replace with your personalised gif
 };
 
 export const USER_NAMES = {
-  githubUsername: "your-github-username",
-  leetcodeUsername: "your-leetcode-username", // remove or keep blank if you don't have a LeetCode profile
-  hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
+  githubUsername: "ritesh-builds",
+  leetcodeUsername: "", // remove or keep blank if you don't have a LeetCode profile
+  hashnodeUsername: "", // remove or keep blank if you don't have a Hashnode profile
 };
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/your-github-username",
-  linkedin: "https://linkedin.com/in/your-linkedin",
-  twitter: "https://twitter.com/your-twitter",
-  leetcode: "https://leetcode.com/your-leetcode",
-  peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
-  instagram: "https://instagram.com/your-instagram",
-  email: "mailto:your.email@example.com",
-  blog: "https://yourblog.com", // remove if you don't have a blog
+  github: "https://github.com/ritesh-builds",
+  linkedin: "https://www.linkedin.com/in/ritesh-kumar-470307316/",
+  twitter: "https://x.com/Code_By_Ritesh",
+  leetcode: "https://leetcode.com/u/Ritesh_Kumar2414055/",
+  // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
+  instagram: "https://www.instagram.com/ritesh.build/",
+  email: "riteshpeepal@gmail.com",
+  // blog: "https://yourblog.com", // remove if you don't have a blog
   resume: "https://your-resume-drive-link.com",
 };
 
@@ -38,63 +41,57 @@ export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
 
 export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Angular", "Redux", "TailwindCSS", "Bootstrap", "Sass", "Less", "jQuery"
+    "HTML", "CSS", "JavaScript", "React", "TailwindCSS",  
   ],
   backend: [
-    "Node.js", "Express.js", "NestJS", "Django", "Flask", "Spring Boot", "Ruby on Rails", "Laravel", "ASP.NET", "FastAPI"
+    "Node.js", "Express.js", "Spring Boot", 
   ],
   databases: [
-    "MongoDB", "MySQL", "PostgreSQL", "SQLite", "Redis", "Firebase", "Supabase"
+    "MongoDB", "MySQL", "Redis"
   ],
   languages: [
-    "C", "C++", "C#", "Java", "Python", "JavaScript", "TypeScript", "Go", "Rust", "Ruby", "PHP", "Kotlin", "Swift", "Dart", "Scala"
+    "C", "C++", "Java", "Python", "JavaScript", 
   ],
-  cloudDevOps: [
-    "AWS", "Azure", "GCP", "Docker", "Kubernetes", "Vercel", "Netlify", "Heroku", "GitHub Actions", "Jenkins"
-  ],
+  // cloudDevOps: [
+  //   "AWS", "Azure", "Docker", "Vercel", "Netlify", "Heroku", "GitHub Actions"
+  // ],
   tools: [
-    "VS Code", "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Figma", "Vite", "Webpack", "Babel", "Jest", "Linux", "Windows", "MacOS"
+    "VS Code", "Git", "GitHub", "GitLab", "Postman", "Figma", "Vite", "Linux", "Windows", "RequestKit", "Intellij Idea"
   ],
 };
 
 export const PROJECTS = [
   {
-    name: "Project 1",
-    description: "Describe your project 1 here. Example: A web app for tracking habits.",
-    tech: ["React", "TypeScript"],
+    name: "Journal-app",
+    description: "A full-stack Journal Management System built with Java, Spring Boot, MongoDB, and React. The application enables users to securely create, update, and manage journal entries with JWT authentication, Spring Security, and Google OAuth2 login. It features role-based access control, allowing administrators to monitor all journal entries while users manage their own content. Additional functionalities include Redis caching for performance optimization, automated email scheduling, and real-time weather integration using external APIs.",
+    tech: ["React", "TypeScript", "Redis", "GoogleOauth2", "Kafka", "SonarQube","Spring Security"," Weather API", "Email Schedulers", "MongoDB", "RestAPI", ],
     link: "https://yourproject1-link.com",
-    github: "https://github.com/yourusername/project1",
+    github: "https://github.com/ritesh-builds/journalApp",
   },
-  {
-    name: "Project 2",
-    description: "Describe your project 2 here. Example: An e-commerce site for books.",
-    tech: ["Next.js", "Tailwind CSS"],
-    link: "https://yourproject2-link.com",
-    github: "https://github.com/yourusername/project2",
-  },
+  
   // Add more projects as needed
 ];
 
 export const EXPERIENCE = [
   {
-    company: "Company Name",
+    company: "Personal Projects",
     companyLink: "https://companyname.com/",
     role: "Software Developer",
     period: "Jan 2025 - Present",
     location: "Remote/Location",
-    description: "Describe your responsibilities and achievements.",
-    skills: ["React", "Node.js", "XXXX"],
+    description: "Built and maintained backend-focused personal projects using Java, Spring Boot, MongoDB, Redis, and Spring Security. Developed REST APIs, implemented JWT authentication, role-based access control, OAuth2 login, caching, and third-party API integrations. Worked on full-stack applications while primarily focusing on backend architecture and system design.",
+    skills: ["Java", "Springboot", "MongoDB", "Redis", "Spring Security"],
   },
   // Add more experience as needed
 ];
 
 export const EDUCATION = [
   {
-    degree: "Your Degree (e.g., B.Tech. in Computer Science)",
-    institution: "Your University",
-    institutionLink: "https://youruniversity.com/",
-    period: "2020 - 2024",
-    score: "XX % or GPA",
+    degree: "Bachelor of Technology (B.Tech) Computer Science and Engineering",
+    institution: "University Institute of Engineering and Technology (UIET) Maharshi Dayanand University, Rohtak",
+    institutionLink: "https://uietmdu.com/",
+    period: "2024 - 2028",
+    score: "Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems",
   },
   // Add more education as needed
 ];
