@@ -37,7 +37,7 @@ export const SOCIAL_LINKS = {
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
-export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
+export const FORM_ENDPOINT = "https://formspree.io/f/meewdrzr";
 
 export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
