@@ -91,7 +91,7 @@ export const EDUCATION = [
     institution: "University Institute of Engineering and Technology (UIET) Maharshi Dayanand University, Rohtak",
     institutionLink: "https://uietmdu.com/",
     period: "2024 - 2028",
-    score: "Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems",
+    score: "DSA, OOP, DBMS",
   },
   // Add more education as needed
 ];
